@@ -392,7 +392,27 @@ header .logo a {
 .main__separator {
 	height: 100px;
 	/*width: ;*/
-	background-image: url(../images/separator.png);
+	background-image: url(../images/1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: repeat-x;
+	border: none;
+	animation: 30s marque infinite linear;
+}
+.main__separator2 {
+	height: 100px;
+	/*width: ;*/
+	background-image: url(../images/2.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: repeat-x;
+	border: none;
+	animation: 30s marque infinite linear;
+}
+.main__separator3 {
+	height: 100px;
+	/*width: ;*/
+	background-image: url(../images/3.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: repeat-x;
