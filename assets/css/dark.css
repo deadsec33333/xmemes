@@ -15,14 +15,14 @@
 	width: 100%;
 }
 
-.section.started{
-	background-image: url('/assets/images/bg.jpg'); /* Replace with your image file path */
-    background-size: cover; /* Cover the entire section */
+.section.started {
+	background-image: url('/assets/images/bg1.jpg'); /* Replace with your image file path */
+    background-size: cover; /* Ensure the entire image is visible */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
-	height: 2000px;
-	width: 100%;
-	display: flex;
+    min-height: 100vh; /* Ensure the section takes at least the full viewport height */
+    width: 100%; /* Ensure the section takes the full viewport width */
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
