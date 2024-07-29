@@ -221,7 +221,7 @@ a.btn,
 }
 .preloader{
 
-	background: url(/assets/images/bgload.gif);
+	background: url(/assets/images/LOAD.gif);
 	background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
